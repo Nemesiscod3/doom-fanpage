@@ -1,0 +1,22 @@
+body{color:green;}
+
+.doom-top-page{
+
+    display: flex;
+    font-size: 28px;
+    background-color: aliceblue;
+    justify-content: space-between;
+  align-items: center;
+    list-style: none;
+    width: calc(100% / 5.5);}
+
+
+
+
+
+ul{
+
+    display: flex;
+    list-style-type: none;
+  display: inline-block;
+}
