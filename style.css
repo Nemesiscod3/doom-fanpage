@@ -1,22 +1,43 @@
-body{color:green;}
+body{background-color: darkgreen;
 
-.doom-top-page{
+  background-blend-mode: color ;
+}
+
+.doomguyface{
+
+    border: 8px solid black;
+    display: flex;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%
+    
+}
+
+.header{
 
     display: flex;
     font-size: 28px;
-    background-color: aliceblue;
-    justify-content: space-between;
-  align-items: center;
-    list-style: none;
-    width: calc(100% / 5.5);}
-
-
-
-
+    justify-content: center;
+    
+}
 
 ul{
 
+    list-style-type: none; 
     display: flex;
-    list-style-type: none;
-  display: inline-block;
+    gap: 30px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+
+    font-size: 28px;
+
+}
+
+h1{
+
+    text-align: center;
 }
